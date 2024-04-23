@@ -1,0 +1,136 @@
+ @font-face {
+    font-family: "NB FONT";
+    src: url(./NBInternationalProBoo.ttf);
+ }
+ @font-face {
+    font-family: "Rejouice";
+    src: url(./Rejouice-Headline.ttf);
+ }
+
+
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: 'NB FONT';
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: crimson;
+    position: relative;
+}
+.page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+#cursor{
+    height: 7.6vw;
+    width: 7.6vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+
+}
+#cursor h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.page-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+    color: #dadada;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-bottom: 5vw; */
+}
+nav{
+    /* height: 100px; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+}
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+.page-content h1{
+    font-size: 27vw;
+    font-weight: 100;
+    font-family: Rejouice;
+    line-height: 21vw;
+}
+.page-content h1 span{
+    font-family: Rejouice;
+}
+
+/*page 2*/
+ .page2{
+    height: 100vh;
+    width: 100%;
+    background-color:#faf8f3;
+    padding: 5.2vw 3vw;
+    /* border: 2px solid red; */
+    position: relative;
+ }
+ .page2-top{
+    /* border-bottom: 1px solid black; */
+    padding-bottom: 1.2vw;
+    /* margin-bottom: 1vw; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.page2-top h3{
+    font-size: 1.7vw;
+    font-weight: 500;
+    /* width: 26%; */
+    /* background-color: red; */
+}
+.page2-top h4{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+.elem{
+overflow: hidden;
+}
+.elem span h1{
+    font-size: 4.2vw;
+    font-weight: 500;
+    line-height: 1.07;
+    /* background-color: green; */
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: lime;
+    
+}
+ 
