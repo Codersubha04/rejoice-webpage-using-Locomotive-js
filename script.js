@@ -68,7 +68,7 @@ function page2Animation(){
     gsap.from(".page2-top h3,.page2-top h4",{
         y:30,
         stagger:0.2,
-        duration:0.50,
+        duration:0.5,
         opacity:0,
         scrollTrigger:{
             trigger:".page2",
@@ -100,16 +100,17 @@ function page2Animation(){
 
     //element animation
     gsap.from(".elem span h1",{
-        y:"100%",
-        stagger:0.25,
+        y:100,
+        stagger:0.5,
         duration:1,
+        // ease:"ease",
         // opacity:0,
         scrollTrigger:{
             trigger:".page2",
             scroller:".main",
             // markers:true,
             start:"top 40%",
-            end:"top 37%",
+            end:"top 40%",
             scrub:2,
             // opacity:1
         }
