@@ -118,13 +118,17 @@ nav h4{
 .border-bottom{
     border-bottom: 1px solid black;
 }
-.elem{
-overflow: hidden;
+.elem span{
+    height:4.5vw ;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
 }
 .elem span h1{
     font-size: 4.2vw;
     font-weight: 500;
-    line-height: 1.07;
+    /* line-height: 1.06; */
+    line-height: 0.9;
     /* background-color: green; */
 }
 .page3{
